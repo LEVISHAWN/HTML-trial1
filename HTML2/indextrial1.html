@@ -6,6 +6,7 @@
     <title>Document</title>
     <body>
       <img src="images/html.jpg" alt="Pic with a Laptop" />
+      <img class="Pic" src="images/html1.png" alt="Team working together" />
       <p class="head1"><em>WANT TO LEARN HTML AND CSS?</em></p>
       <p class="subhead">LEVI-SHAWN IS HERE TO HELP</p>
     </body>
@@ -16,19 +17,38 @@
         height: 100px;
         border-radius: 50px;
         float: left;
-        margin-right: 50px;
+        margin-right: 100px;
         object-fit: cover;
+      }
+    </style>
+    <style>
+      .Pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        float: right;
+        margin-left: 50px;
+        object-fit: contain;
+        border: 2px solid blue;
       }
     </style>
     <style>
       em {
         font-style: bold;
         color: gold;
+        float: center;
+      }
+    </style>
+    <style>
+      h1 {
+        color: cornflowerblue;
+        font-style: italic;
+        font-style: bold;
       }
     </style>
   </head>
   <body>
-    <a href="images/html.jpg">Pic with Laptop</a>
+    <a href="images/html.jpg">Picture with Laptop</a>
     <a href="#section-html">Intoduction to HTML</a>
     <a href="#section-css">Introduction to CSS</a>
     <h1>HTML LESSONS</h1>
